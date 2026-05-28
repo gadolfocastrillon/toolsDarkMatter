@@ -1,0 +1,22 @@
+# Ignorar las descargas pesadas de los códigos fuente originales
+**/micromegas_*/
+**/madgraph_*/
+
+# Ignorar archivos de objetos y librerías compiladas localmente
+**/*.o
+**/*.a
+**/*.so
+**/*.d
+
+# Ignorar ejecutables generados por las compilaciones
+**/a.out
+**/scan_r_*
+
+# Ignorar los archivos comprimidos pesados (tar.xz, tgz)
+**/*.tar.xz
+**/*.tgz
+
+# Ignorar las carpetas temporales internas que genera micrOmegas al correr
+**/tmp/
+**/results/
+**/so_generated/
